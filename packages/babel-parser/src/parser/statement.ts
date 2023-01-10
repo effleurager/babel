@@ -567,7 +567,7 @@ export default abstract class StatementParser extends ExpressionParser {
           result = this.parseExport(
             node as Undone<
               | N.ExportAllDeclaration
-              | N.ExportDefaultDeclaration
+              | N.ExportNamedDeclaration
               | N.ExportDefaultDeclaration
             >,
             decorators,
